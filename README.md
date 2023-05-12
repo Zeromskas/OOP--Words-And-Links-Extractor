@@ -1,6 +1,7 @@
 # OOP-egzaminas
 
-Programa, iš duoto teksto išrenkanti internetines nuorodas (prasidedančias "https://", "http://" arba "www.") ir randanti visus pasikartojančius žodžius.
+Programa, iš duoto teksto išrenkanti internetines nuorodas (prasidedančias "https://", "http://" arba "www.") ir randanti visus pasikartojančius žodžius. 
+
 Rezultatas: failas su nuorodomis ir lentele, su skiltimis "žodis", "kiekis" (kiek kartų pasikartojo tekste), eilutės (kuriose teksto eilutėse žodis pasikartojo)
 
 # Programos pasileidimas
@@ -32,25 +33,17 @@ https://www.csfieldguide.org.nz/
 https://techcrunch.com/
 
 PASIKARTOJANTYS ŽODŽIAI
-Žodis              | Kiekis  | Eilutėse
---------------------------------------------------------------
-and                 3         4  5  6  
---------------------------------------------------------------
-at                  3         2  5  7  
---------------------------------------------------------------
-computer            2         3  4  
---------------------------------------------------------------
-if                  2         1  5  
---------------------------------------------------------------
-more                2         1  4  
---------------------------------------------------------------
-science             2         3  4  
---------------------------------------------------------------
-the                 3         2  4  6  
---------------------------------------------------------------
-to                  2         5  6  
---------------------------------------------------------------
-you                 3         1  2  5  
---------------------------------------------------------------
+| Žodis    | Kiekis | Eilutėse |
+| -------- | ------ | -------- |
+| and      | 3      | 4 5 6    |
+| at       | 3      | 2 5 7    |
+| computer | 2      | 3 4      |
+| if       | 2      | 1 5      |
+| more     | 2      | 1 4      |
+| science  | 2      | 3 4      |
+| the      | 3      | 2 4 6    |
+| to       | 2      | 5 6      |
+| you      | 3      | 1 2 5    |
+
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
