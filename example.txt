@@ -1,0 +1,7 @@
+If you're interested in learning more about artificial intelligence, 
+you can check out the OpenAI website at https://openai.com/ For a 
+comprehensive overview of computer science topics, including 
+algorithms, data structures, and more, visit the Computer Science 
+Field Guide at https://www.csfieldguide.org.nz/ And if you want to 
+keep up with the latest technology news and trends, be sure to 
+follow TechCrunch at https://techcrunch.com/

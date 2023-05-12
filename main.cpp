@@ -113,7 +113,7 @@ void write()
 
     out << endl;
 
-    out << "PASIKARTOJANTYS ŽODŽIAI (" << words.size() << ")" << endl;
+    out << "PASIKARTOJANTYS ŽODŽIAI" << endl;
     if (!words.empty())
     {
         out << left << setw(20) << "Žodis" << left << setw(10) << "| Kiekis"
