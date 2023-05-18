@@ -27,10 +27,10 @@ follow TechCrunch at https://techcrunch.com/.
 
 example.txt 
 
-NUORODOS (3)
-https://openai.com/
-https://www.csfieldguide.org.nz/
-https://techcrunch.com/
+NUORODOS (3)  
+https://openai.com/  
+https://www.csfieldguide.org.nz/  
+https://techcrunch.com/  
 
 PASIKARTOJANTYS ŽODŽIAI
 | Žodis    | Kiekis | Eilutėse |
