@@ -26,7 +26,11 @@ string filename;
 
 string file()
 {
+    cout <<endl<< "--------------------------------------------------------------" << endl;
+    cout<< "Dabartinėje direktorijoje egzistojantys failai:"<<endl;
+    cout<<"---"<<endl;
     system("ls *.txt");
+    cout << "---" << endl;
     cout << "Iveskite failo pavadinima: " << endl;
     cin >> filename;
     bool badFile;
@@ -52,13 +56,16 @@ string file()
         }
     } while (badFile);
 
+    system("clear");
+    cout<<filename<<endl;
+    
     return filename;
 }
 
 void read()
 {
     ifstream in(file());
-
+    
     string word;
 
     stringstream line;
@@ -145,6 +152,11 @@ int main()
 {
     read();
     write();
-    cout << "Apdorota sėkmingai. Rezultatus rasite rezultatai.txt faile" << endl;
+
+    cout<<"--------------------------------------------------------------"<<endl;
+    cout << "Apdorota sėkmingai" << endl;
+    cout << "Rasta " << links.size() << " nuorodų ir " << words.size() << " unikalių žodžių" << endl;
+    cout << "Detalius rezultatus rasite rezultatai.txt faile" << endl;
+    cout << "--------------------------------------------------------------" << endl;
     return 0;
 }
