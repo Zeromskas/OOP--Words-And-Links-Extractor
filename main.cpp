@@ -4,6 +4,7 @@
 #include <map>
 #include <string>
 #include <sstream>
+#include <unordered_set>
 
 using std::cin;
 using std::cout;
@@ -19,8 +20,10 @@ using std::string;
 using std::stringstream;
 using std::transform;
 using std::vector;
+using std::unordered_set;
+using std::ispunct;
 
-vector<string> links;
+unordered_set<string> links;
 map<string, vector<int>> words;
 string filename;
 
@@ -58,7 +61,7 @@ string file()
 
     system("clear");
     cout<<filename<<endl;
-    
+
     return filename;
 }
 
@@ -81,7 +84,14 @@ void read()
         while (line >> word)
         {
             if (word.find("www.") != string::npos || word.find("http://") != string::npos || word.find("https://") != string::npos)
-                links.push_back(word);
+            {
+                if (ispunct(word.back()))
+                {
+                    word.pop_back();
+                }
+                links.insert(word);
+            }
+                
             else
             {
                 word.erase(find_if(word.begin(), word.end(), [](char c)
