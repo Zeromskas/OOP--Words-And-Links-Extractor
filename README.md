@@ -1,4 +1,4 @@
-# OOP-egzaminas
+# OOP Extract words and links from text
 
 Programa, iš duoto teksto išrenkanti internetines nuorodas (prasidedančias "https://", "http://" arba "www.") ir randanti visus pasikartojančius žodžius. 
 
